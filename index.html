@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="tr" class="dark">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Bayburt Öz-Ka İnşaat | Personel Mesai & Puantaj Takip</title>
+    
+    <!-- TÜM ARAMA MOTORLARINA KAPATMA VE GİZLİLİK DİREKTİFLERİ -->
+    <meta name="robots" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate, noodp" />
+    <meta name="googlebot" content="noindex, nofollow, noarchive, nosnippet, noimageindex, notranslate, max-snippet:0" />
+    <meta name="googlebot-news" content="noindex, nofollow" />
+    <meta name="yandex" content="none, noindex, nofollow, noarchive" />
+    <meta name="bingbot" content="noindex, nofollow, noarchive, nosnippet, noimageindex" />
+    <meta name="duckduckbot" content="noindex, nofollow" />
+    <meta name="baiduspider" content="noindex, nofollow" />
+    <meta name="slurp" content="noindex, nofollow" />
+    <meta name="referrer" content="no-referrer" />
+
+    <!-- DevTools / İncele ve Sağ Tık Engelleme Kalkanı (Sayfa Yüklenirken Anında Devreye Girer) -->
+    <script>
+      (function() {
+        document.addEventListener('contextmenu', function(e) { e.preventDefault(); return false; }, true);
+        window.addEventListener('keydown', function(e) {
+          if (e.key === 'F12' || e.keyCode === 123) { e.preventDefault(); return false; }
+          var c = e.ctrlKey || e.metaKey;
+          if (c) {
+            var k = (e.key || '').toLowerCase();
+            if (e.shiftKey && (k === 'i' || k === 'j' || k === 'c' || k === 'k')) { e.preventDefault(); return false; }
+            if (k === 'u' || k === 's') { e.preventDefault(); return false; }
+          }
+        }, true);
+      })();
+    </script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+  </head>
+  <body oncontextmenu="return false;" class="bg-[#07080c] text-zinc-100 antialiased selection:bg-amber-500/30 selection:text-amber-200 overflow-x-hidden min-h-screen">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
